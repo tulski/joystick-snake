@@ -2,8 +2,6 @@
 
 ---
 
----
-
 ## Krok 1: Arduino
 
 ![images/joystick-sparkfun.png](images/joystick-sparkfun.png)
@@ -45,15 +43,11 @@ board.on("ready", () => {
 ...
 ```
 
-Całość kodu dostępna w repozytorium.
-
-[tulski/joystick-snake](https://github.com/tulski/joystick-snake/blob/master/src/server.js)
-
 ---
 
 ## Krok 3: Front-end
 
-[S](https://styled-components.com/)erwer wyżej serwuje statyczny plik HTML. Layout stworzony przy użyciu elementu `<canvas id="game">`.  Po wyemitowaniu odpowiedniej wiadomości w serwerze przechwytujemy ją po stronie przeglądarki i zmieniamy kierunek węża. 
+Serwer wyżej serwuje statyczny plik HTML. Layout stworzony przy użyciu elementu `<canvas id="game">`.  Po wyemitowaniu odpowiedniej wiadomości w serwerze przechwytujemy ją po stronie przeglądarki i zmieniamy kierunek węża. 
 
 ```jsx
 ...
@@ -90,10 +84,6 @@ Całość kodu dostępna w repozytorium.
 ---
 
 ## Efekt
-
-Repozytorium:
-
-[tulski/joystick-snake](https://github.com/tulski/joystick-snake)
 
 Prezentacja działania:
 
