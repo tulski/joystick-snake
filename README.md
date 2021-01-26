@@ -1,6 +1,5 @@
 # Snake w przeglądarce sterowany joystickem
 
----
 
 ## Krok 1: Arduino
 
@@ -75,11 +74,7 @@ Serwer wyżej serwuje statyczny plik HTML. Layout stworzony przy użyciu element
 ...
 ```
 
-Całość kodu dostępna w repozytorium.
-
 ![images/Untitled.png](images/Untitled.png)
-
-[tulski/joystick-snake](https://github.com/tulski/joystick-snake/blob/master/static/index.html)
 
 ---
 
